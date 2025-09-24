@@ -14,6 +14,7 @@
 - `ml.ico` - 应用程序图标文件
 - `build_app.bat` - Windows平台下的一键打包脚本
 - `music_manager.spec` - PyInstaller打包配置文件（由打包脚本自动生成）
+- 其他python文件为开发时所用分功能
 
 ### 功能模块（已合并到music_manager.py中）
 
@@ -22,23 +23,7 @@
 - 移除前缀：移除音乐文件名中的数字前缀和其他标记
 
 ## 使用方法
-
-### 直接运行（需要Python环境）
-
-1. 确保已安装Python 3.6+
-
-2. 安装依赖包：
-
-   ```
-   pip install requests
-   pip install browser_cookie3  # 可选，用于自动获取浏览器Cookie
-   ```
-
-3. 运行程序：
-
-   ```
-   python music_manager.py
-   ```
+-将music_manager.exe放到有歌曲的目录下，先点击更新歌单，成功后再点击命名排序，移除前缀是在匹配不成功时还原文件的
 
 ### 打包为可执行文件
 
