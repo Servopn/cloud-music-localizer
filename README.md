@@ -1,4 +1,4 @@
-# 音乐管理工具
+# 网易云歌单本地化
 
 这是一个用于管理本地音乐文件的工具，主要功能包括：
 
@@ -14,7 +14,7 @@
 - `ml.ico` - 应用程序图标文件
 - `build_app.bat` - Windows平台下的一键打包脚本
 - `music_manager.spec` - PyInstaller打包配置文件（由打包脚本自动生成）
-- 其他python文件为开发时所用分功能
+- `其他python文件为开发时所用分功能
 
 ### 功能模块（已合并到music_manager.py中）
 
@@ -40,7 +40,7 @@
 5. 如需移除文件名前缀，可点击"移除前缀"按钮
 
 ## 注意事项
-
+- 使用时需要提前安装Firefox浏览器，并且登录过网易云
 - 网易云音乐歌单链接格式应为：`https://music.163.com/api/playlist/detail?id=歌单ID`
 - 程序支持的音频格式：.flac, .mp3, .m4a, .wav, .ogg
 - 程序会自动处理中文乱码问题
